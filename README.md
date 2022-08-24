@@ -12,3 +12,5 @@ were tested to verify the appropriateness of the model. The results were that th
 Sector, Location and Size of the company advertising the jobs were good predictors of
 Upper and Lower salaries. This information could be used by any person seeking a job
 in this field in the United States who wants to maximize their salary.
+
+![](/images/avg_salary_by_sector.png)
