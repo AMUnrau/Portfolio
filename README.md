@@ -14,3 +14,4 @@ Upper and Lower salaries. This information could be used by any person seeking a
 in this field in the United States who wants to maximize their salary.
 
 ![](/images/avg_salary_by_sector.png)
+![](/images/groups_avg_salary_top5sector.png)
