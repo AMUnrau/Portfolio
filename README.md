@@ -16,4 +16,4 @@ in this field in the United States who wants to maximize their salary.
 ![](/images/avg_salary_by_sector.png)
 ![](/images/groups_avg_salary_top5sector.png)
 
-![Link to the report PDF.](/images/salaries-project.pdf)
+
