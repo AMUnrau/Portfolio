@@ -1,4 +1,4 @@
-# Data Science Project Portfolio
+# Project Portfolio
 
 ## Project 1: Multivariate Analysis of Data Science Job Salaries
 This project was completed in R and the report was produced using R Markdown.
@@ -22,4 +22,9 @@ in this field in the United States who wants to maximize their salary.
     ![](/images/groups_avg_salary_top5sector.png)
 
 
+## Project 2: An Analysis of TED Talks - A data mining group project
+My contribution to this group project was completed in R.
+#### Project overview
+"An Analysis of TED Talks" was a group project done for the course Introduction to Data Mining. My contribution to the project involved analyzing the tags on TED talks over 15 years to find the ones that occurred most frequently. After cleaning the data, I utilized a term frequency statistic to find the top 10% most frequently occurring tags per year. Then using the text mining Apriori Algorithm I found the individual tags, pairs of tags, and triplets of tags that occurred most frequently throughout all 15 years.
 
+* The full project in PDF format can be found [here](https://drive.google.com/file/d/1vzVzmsnDbTi1Ui9a2HhYrW5t8w63TjhZ/view?usp=sharing)
