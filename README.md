@@ -23,7 +23,7 @@ in this field in the United States who wants to maximize their salary.
 
 
 ## Project 2: An Analysis of TED Talks - A data mining group project
-My contribution to this group project was completed in R.
+I completed my portion of this group project in R.
 #### Project overview
 "An Analysis of TED Talks" was a group project done for the course Introduction to Data Mining. My contribution to the project involved analyzing the tags on TED talks over 15 years to find the ones that occurred most frequently. After cleaning the data, I utilized a term frequency statistic to find the top 10% most frequently occurring tags per year. Then using the text mining Apriori Algorithm I found the individual tags, pairs of tags, and triplets of tags that occurred most frequently throughout all 15 years.
 
