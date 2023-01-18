@@ -5,7 +5,6 @@
     1. [Multivariate Analysis](#project1)
     2. [Text Data Mining](#project2)
 2. Programming
-    1.
 
 ## Project 1: Multivariate Analysis of Data Science Job Salaries <a name="project1"></a>
 This project was completed in R and the report was produced using R Markdown.
