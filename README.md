@@ -1,5 +1,3 @@
-# Project Portfolio
-
 ## Table of contents
 1. Data Science
     1. [Multivariate Analysis](#project1)
