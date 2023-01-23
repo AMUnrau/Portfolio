@@ -3,6 +3,7 @@
     1. [Multivariate Analysis](#project1)
     2. [Text Data Mining](#project2)
 2. Programming
+    1. [Android App](#project3)
 
 ## Project 1: Multivariate Analysis of Data Science Job Salaries <a name="project1"></a>
 This project was completed in R and the report was produced using R Markdown.
@@ -32,3 +33,11 @@ I completed my portion of this group project in R.
 "An Analysis of TED Talks" was a group project done for the course Introduction to Data Mining. My contribution to the project involved analyzing the tags on TED talks over 15 years to find the ones that occurred most frequently. After cleaning the data, I utilized a term frequency statistic to find the top 10% most frequently occurring tags per year. Then using the text mining Apriori Algorithm I found the individual tags, pairs of tags, and triplets of tags that occurred most frequently throughout all 15 years.
 
 * The full project in PDF format can be found [here](https://drive.google.com/file/d/1vzVzmsnDbTi1Ui9a2HhYrW5t8w63TjhZ/view?usp=sharing)
+
+
+## Project 3: My Fitness Friend (MFF) - An Android App development group project <a name="project3"></a>
+This project was coded in Java.
+#### Project overview
+The MFF app tracks calories consumed and calories burned each day and calculates how many more are required to hit user-defined goals. It also shows graphs of daily caloric and macronutrient summaries. By clicking on the Add Food button corresponding to a particular meal, a user is able to select foods and add them as a food eaten for breakfast, lunch, dinner or snack. They can also click Add Water to enter in how many cups of water they've drank. After adding a food, that food is visible under the corresponding meal and a sum of calories consumed in that meal is shown and updated as foods are added. A running tally can also be seen at the top of the screen where a calculation is done for the number of calories remaining to be consumed that day. When clicking on the View Daily Summary button, the grams of fat, carbs and protein consumed is shown for the current day. The proportion of calories consumed in fat, carbs and protein is also shown as a pie chart. Clicking on View Profile will allow the user to enter a goal for the daily maximum number of calories they want to consume, and a goal for daily water consumption in number of cups. The user can select exercises from a list and enter in the duration they performed the exercise for. The user can enter a reflection about their day.
+
+* A slideshow of screenshots of the apps functionality can be found [here](https://docs.google.com/presentation/d/14rdqPG46u8UtwlY0K_J7HdgbP19w9mMMUDmOS6jC5Hw/edit?usp=sharing)
