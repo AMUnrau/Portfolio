@@ -18,10 +18,12 @@ My aim was to answer the questions:
 
 ### Exploratory Data Analysis
 I first looked at the five-number summary of the Lower, Upper and Average salaries.
-    ![](/images/five_num_summary.png)
+
+   ![](/images/five_num_summary.png)
     
 I was interested in the relationship between Age and each salary level so I looked at the correlations and found they were all less than 0.035, indicating an insignificant relationship.
-    ![](/images/age_corr.png)
+
+   ![](/images/age_corr.png)
 
 ### Methods Used In Analysis
 1-way and 2-way MANOVA, multivariate linear regression, and testing for nested models was used to identify the best explanatory variables for a model. After selecting a model, Cook’s distance and normality of residuals were tested to verify the appropriateness of the model.
