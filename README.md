@@ -1,25 +1,37 @@
 ## Table of contents
 1. Data Science
-    1. [Multivariate Analysis](#project1)
+    1. [Data Science Salaries project](#project1)
     2. [Text Data Mining](#project2)
 2. Programming
     1. [Android App](#project3)
 
-## Project 1: Multivariate Analysis of Data Science Job Salaries <a name="project1"></a>
+## Project 1: Multivariate Analysis of Data Science Salaries <a name="project1"></a>
 This project was completed in R and the report was produced using R Markdown.
-#### Project overview
-* The data set contains several hundred Data Science-related job listings in the United
-States scraped from the website Glassdoor. The purpose of this research was to determine
-which of a particular subset of explanatory variables had an effect on the Lower,
-Upper, and Average salaries of the jobs. 1-way and 2-way MANOVA, multivariate linear
-regression, and testing for nested models was used to identify the best explanatory
-variables for a model. After selecting a model, Cook’s distance and normality of residuals
-were tested to verify the appropriateness of the model. The results were that the
-Sector, Location and Size of the company advertising the jobs were good predictors of
-Upper and Lower salaries. This information could be used by any person seeking a job
-in this field in the United States who wants to maximize their salary.
-#### Full report and sample of visuals
+
+### Project overview
+The data set contains several hundred Data Science-related job listings in the United States scraped from the website Glassdoor. The purpose of this research was to determine which of a particular subset of explanatory variables had an effect on the Lower, Upper, and Average salaries of the jobs.
+
+### Objectives
+My aim was to answer the questions: 
+    1. Does the Location, Size, Sector, Revenue or Age of the company predict the Lower, Upper and Average salary of the job being advertised? 
+    2. Which of those variables are the best predictors of salary?
+
+### Exploratory Data Analysis
+I first looked at the five-number summary of the Lower, Upper and Average salaries.
+    ![](/images/five_num_summary.png)
+    
+I was interested in the relationship between Age and each salary level so I looked at the correlations and found they were all less than 0.035, indicating an insignificant relationship.
+    ![](/images/age_corr.png)
+
+### Methods Used In Analysis
+1-way and 2-way MANOVA, multivariate linear regression, and testing for nested models was used to identify the best explanatory variables for a model. After selecting a model, Cook’s distance and normality of residuals were tested to verify the appropriateness of the model.
+
 * The full project in PDF format can be found [here](https://drive.google.com/file/d/1MU2WsG_zJHyf-Zyx4M4JnaMYkhg1RaMV/view?usp=sharing)
+
+### Conclusion
+The results were that the Sector, Location and Size of the company advertising the jobs were good predictors of Upper and Lower salaries. This information could be used by any person seeking a job in this field in the United States who wants to maximize their salary.
+
+### Full report and sample of visuals
 
 * Sample of the exploratory data analysis visuals:
 
