@@ -46,7 +46,7 @@ I completed my portion of this group project in R.
 
 
 ## Project 3: My Fitness Friend (MFF) - A group project Android App development <a name="project3"></a>
-This project was coded in Java.
+This project was coded in Java, and the app was developed using Android Studio.
 #### Project overview
 The MFF app tracks calories consumed and calories burned each day and calculates how many more are required to hit user-defined goals. It also shows graphs of daily caloric and macronutrient summaries. By clicking on the Add Food button corresponding to a particular meal, a user is able to select foods and add them as a food eaten for breakfast, lunch, dinner or snack. They can also click Add Water to enter in how many cups of water they've drank. After adding a food, that food is visible under the corresponding meal and a sum of calories consumed in that meal is shown and updated as foods are added. A running tally can also be seen at the top of the screen where a calculation is done for the number of calories remaining to be consumed that day. When clicking on the View Daily Summary button, the grams of fat, carbs and protein consumed is shown for the current day. The proportion of calories consumed in fat, carbs and protein is also shown as a pie chart. Clicking on View Profile will allow the user to enter a goal for the daily maximum number of calories they want to consume, and a goal for daily water consumption in number of cups. The user can select exercises from a list and enter in the duration they performed the exercise for. The user can enter a reflection about their day.
 
