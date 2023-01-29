@@ -13,8 +13,8 @@ The data set contains several hundred Data Science-related job listings in the U
 
 ### Objectives
 My aim was to answer the questions: 
-    1. Does the Location, Size, Sector, Revenue or Age of the company predict the Lower, Upper and Average salary of the job being advertised? 
-    2. Which of those variables are the best predictors of salary?
+1. Does the Location, Size, Sector, Revenue or Age of the company predict the Lower, Upper and Average salary of the job being advertised? 
+2. Which of those variables are the best predictors of salary?
 
 ### Exploratory Data Analysis
 I first looked at the five-number summary of the Lower, Upper and Average salaries.
