@@ -17,22 +17,25 @@ My aim was to answer the questions:
 2. Which of those variables are the best predictors of salary?
 
 ### Exploratory Data Analysis
-I first looked at the five-number summary of the Lower, Upper and Average salaries.
+I first looked at the five-number summary of the Lower, Upper and Average salaries. I was interested in the relationship between Age and each salary level so I looked at the correlations and found they were all less than 0.035, indicating an insignificant relationship. I compared the density curves of the three salary levels and found the most variation in the Upper salary estimates. I noted that these curves did not seem to be normally distributed as there was right skewness in all three.
 
-   ![](/images/five_num_summary.png)
+   ![](/images/density_curve.png)
     
-I was interested in the relationship between Age and each salary level so I looked at the correlations and found they were all less than 0.035, indicating an insignificant relationship.
+Focusing on Average salaries, I looked at the salaries based on company size, sector, and location to find the relevant groups with the largest and highest average salaries, and widest interquartile ranges. Interestingly, companies with a size of 51-200 and 10,000+ had very similar interquartile ranges. For sectors, Telecommunications, Accounting & Legal and Media were the top three sectors with the highest Average salary. Telecommunications and Finance were the two sectors with the widest interquartile ranges.
 
-   ![](/images/age_corr.png)
+   ![](/images/salary_by_sector.png)
+   
+I looked at the relationship between five of the sectors that had the most job postings (they accounted for 71% of the job postings), Age, and Average salary. The older companies tend to be in the sectors Biotech & Pharmaceuticals, Insurance and Finance, and the younger companies are in Business Services and Information Technology. This was not a surprise. The ellipses represent 95% confidence levels. Judging by the fact that the dots for the older companies are largely concentrated in the same salary range as the younger companies, it didn’t seem that I could conclude that Age and Sector together have an effect on Average Salary.
+
+   ![](/images/salary_age_sector.png)
 
 ### Methods Used In Analysis
 1-way and 2-way MANOVA, multivariate linear regression, and testing for nested models was used to identify the best explanatory variables for a model. After selecting a model, Cook’s distance and normality of residuals were tested to verify the appropriateness of the model.
 
-* The full project in PDF format can be found [here](https://drive.google.com/file/d/1MU2WsG_zJHyf-Zyx4M4JnaMYkhg1RaMV/view?usp=sharing)
-
 ### Conclusion
-The results were that the Sector, Location and Size of the company advertising the jobs were good predictors of Upper and Lower salaries. This information could be used by any person seeking a job in this field in the United States who wants to maximize their salary.
+The results were that the Sector, Location and Size of the company advertising the jobs were the best predictors of Upper and Lower salaries. This information could be used by any person seeking a job in this field in the United States who wants to maximize their salary.
 
+* The full project in PDF format can be found [here](https://drive.google.com/file/d/1MU2WsG_zJHyf-Zyx4M4JnaMYkhg1RaMV/view?usp=sharing)
 
 ## Project 2: An Analysis of TED Talks - A data mining group project <a name="project2"></a>
 I completed my portion of this group project in R.
